@@ -3,7 +3,6 @@ html {
     font-size: 14px;
     height: 100%;
     background-color: white;
-
 }
 
 .material-icons {
@@ -11,7 +10,7 @@ html {
     padding: 5px;
 }
 .material-icons:hover {
-    border-color: #5f6368;
+    background-color: #0000002c;
     border-radius: 100px;
     cursor: pointer;
 }
@@ -59,7 +58,8 @@ li:hover {
 
 #Signin:hover {
     cursor: pointer;
-    
+    box-shadow: 0 5px 15px #1a73e8d6;
+    background-color: #1a73e8d6;
 }
 
 #logo {
@@ -79,7 +79,13 @@ input {
     height: 50px;
     border-radius: 25px;
     border-width: 1px;
+    background: white url(/Assets/search-icon.png) left no-repeat;
+    padding: 0 50 0 30;
 }
+
+input:hover {
+    box-shadow: 0 0 10px rgba(77, 77, 77, 0.5);
+    }
 
 .search-buttons {
     display: flex;
@@ -100,8 +106,8 @@ input {
 #Search:hover, #Lucky:hover {
     cursor:pointer;
     border-radius: 7px;
-    border-color: #f8f9fa;
-    border-width: 1px;
+    border-color: #f8f9fa9f;
+    border-width: 2px;
 }
 .language-options {
     display: flex;
@@ -110,7 +116,7 @@ input {
     font-size: 13px;
   }
 
-  #ro { text-decoration: none; color: #1a0dab;}
+#ro { text-decoration: none; color: #1a0dab;}
 #ro:hover { text-decoration: underline;}
 
 #fr { text-decoration: none; color: #1a0dab;}
